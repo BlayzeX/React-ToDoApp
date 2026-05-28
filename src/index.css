@@ -1,0 +1,116 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #0f0f13;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 40px 16px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+div {
+  background-color: #1a1a24;
+  border-radius: 16px;
+  padding: 32px;
+  margin: auto;
+
+  width: 100%;
+  max-width: 480px;
+  border: 1px solid #2e2e40;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 24px;
+  text-align: center;
+  letter-spacing: 0.5px;
+}
+
+.inputDiv {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+input {
+  flex: 1;
+  padding: 10px 14px;
+  border-radius: 10px;
+  border: 1px solid #2e2e40;
+  background-color: #12121a;
+  color: #ffffff;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+input:focus {
+  border-color: #534AB7;
+}
+
+input::placeholder {
+  color: #555566;
+}
+
+button {
+  padding: 10px 16px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background-color 0.2s;
+}
+
+.inputDiv button {
+  background-color: #534AB7;
+  color: #ffffff;
+}
+
+.inputDiv button:hover {
+  background-color: #6259cc;
+}
+
+ol {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #12121a;
+  border: 1px solid #2e2e40;
+  border-radius: 10px;
+  padding: 12px 14px;
+}
+
+li span {
+  flex: 1;
+  color: #e0e0f0;
+  font-size: 14px;
+}
+
+li button {
+  background-color: #1e1e2e;
+  color: #aaaacc;
+  padding: 6px 10px;
+  font-size: 13px;
+}
+
+li button:hover {
+  background-color: #2e2e44;
+  color: #ffffff;
+}
